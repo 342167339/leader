@@ -1,3 +1,8 @@
+//订阅"/mobile_base/commands/velocity"，获取leader的速度
+//通过tf_broadcast发布follower相对与leader的tf变换
+//通过tf_listener获取follower相对于odom原点的tf变换
+//发布follower_odom话题
+
 #include <ros/ros.h>
 //#include <tf/transform.h>
 #include <tf/transform_listener.h>

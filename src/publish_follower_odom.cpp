@@ -1,3 +1,5 @@
+//订阅leader的odom，再重新发，没什么意义
+
 #include <ros/ros.h>  
 #include "std_msgs/String.h"
 #include <geometry_msgs/PoseStamped.h>

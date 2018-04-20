@@ -1,1 +1,7 @@
 使用说明
+
+1：首先启动turtlebot或者虚拟仿真，产生leader的odom
+2：修改client.py中socketIP为follower所在电脑的IP
+3：等待follower启动server.py，绑定IP，然后启动leader的client.py
+
+src文件：具体功能见cpp文件注释，如果要实现leader的odom的变换再发送，则第二步先启动src中的两个节点，再启动socket发送数据
